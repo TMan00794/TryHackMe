@@ -1,5 +1,5 @@
-# TryHackMe -Easy Peasy
-======
+#   TryHackMe -Easy Peasy
+===============================
 
 ## Task - 1
  1.) Log in to TRY HACK ME
@@ -9,7 +9,9 @@
 * sudo openvpn {Your Username VPN}
 * *Leave this Terminal open in the background and open another terminal*
 
+
+
  2.)
 
-* - Bullet?
+- Bullet?
 - *Italisized*
