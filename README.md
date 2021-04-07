@@ -15,7 +15,7 @@
       sudo openvpn {Your Username VPN}
 ```
 
-      **Leave this Terminal open in the background and open another terminal**
+**Leave this Terminal open in the background and open another terminal**
 
 
  3.) Run nmap -A -p- *{IP Address from TryHackMe}*
