@@ -11,5 +11,5 @@
 
  2.)
 
-* -Bullet?
+* - Bullet?
 - *Italisized*
