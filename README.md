@@ -4,9 +4,9 @@
 ## Beginning Tasks - Start Up!
 
 
- 1.) Log in to [TRY HACK ME](https://www.tryhackme.com)
+**1.) Log in to [TRY HACK ME](https://www.tryhackme.com)**
 
- 2.) Open a terminal in your Virtual Machine
+**2.) Open a terminal in your Virtual Machine**
 ```
       ls into your *Documents* Directory
 
@@ -18,7 +18,7 @@
 **Leave this Terminal open in the background and open another terminal**
 
 
- 3.) Run nmap -A -p- *{IP Address from TryHackMe}*
+ **3.) Run nmap -A -p- {IP Address from TryHackMe}**
 
       - nmap :
 
@@ -48,7 +48,7 @@
 
 
 
- 4.) In your second terminal:
+ **4.) In your second terminal:**
      - Download gobuster in your terminal by using *sudo apt install gobuster*
      - Use the following command with the IP from the TryHackMe website room:
 
