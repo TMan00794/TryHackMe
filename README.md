@@ -2,7 +2,10 @@
 
 
 ## Beginning Tasks - Start Up!
+
+
  1.) Log in to [TRY HACK ME](https://www.tryhackme.com)
+
  2.) Open a terminal in your Virtual Machine
      * ls into your *Documents* Directory
      * ls into your *tryhackme* Directory to locate your *"Open VPN Username"*
@@ -15,7 +18,7 @@
 
            gobuster dir -w /usr/share/wordlist/dirbuster/directory-list-2.3-medium.txt -u *{IP Address from TryHackMe}*
 
- 3.)
+ 3.) 
 
 - Bullet?
 - *Italisized*
