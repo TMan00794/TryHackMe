@@ -50,7 +50,7 @@
        targets, including reverse DNS names, operating system guesses, device types, and MAC
        addresses.
 ```
-                                          Source: Kali Linux Terminal MAN Pages
+Source: Kali Linux Terminal MAN Pages
 ```
       - -A :(Aggressive scan options)
 
@@ -65,7 +65,7 @@
            privileges (e.g. root access) such as OS detection and traceroute will only be
            enabled if those privileges are available.
 ```
-                                        Source: Kali Linux Terminal MAN Pages
+Source: Kali Linux Terminal MAN Pages
 ```
       - -p- : port ranges (Only scan specified ports)
            This option specifies which ports you want to scan and overrides the default.
@@ -75,19 +75,31 @@
            Scanning port zero is allowed if you specify it explicitly. For IP protocol scanning
            (-sO), this option specifies the protocol numbers you wish to scan for (0–255).
 ```
-                                        Source: Kali Linux Terminal MAN Pages
+Source: Kali Linux Terminal MAN Pages
 
 
 
  **4.) In your second terminal:**
+
      - Download gobuster in your terminal by using *sudo apt install gobuster*
      - Use the following command with the IP from the TryHackMe website room:
 
            gobuster dir -w /usr/share/wordlist/dirbuster/directory-list-2.3-medium.txt -u *{IP Address from TryHackMe}*
 
- **5.) While waiting on the results from the gobuster command, type in dirbuster in your VM**
-    - dirbuster -H -u http://{IP Address from TryHackMe} -t 200 -l /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt 
+ **5.) While waiting on the results from the gobuster command, open a third terminal and type in dirbuster in your VM**
 
+    - sudo apt install dirbuster (if it hasn't been installed)
 
-- Bullet?
-- *Italisized*
+    - dirbuster -H -u http://{IP Address from TryHackMe} -t 200 -l /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+
+**6.) You should get a couple of responses from gobuster and one response from dirbuster**
+
+    - Fire up a fire fox browser on your VM and type in your {IP address from TryHackMe}
+
+    * Should get a website that says you are successfully installed and configured.
+
+    - Use the answer(s) from dirbuster and gobuster in fire fox for instance XXX.XX.XX.XXX/{directory that was found in dirbuster/gobuster}
+
+    - Once you get to that webpage, view page source and read that/those.
+
+    - **You should find a code that you should be able to crack. Copy it and throw it in a hash identifier to get your answer.**
