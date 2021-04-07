@@ -9,13 +9,13 @@
  2.) Open a terminal in your Virtual Machine
 
  * ls into your *Documents* Directory
-
-  ls into your *tryhackme* Directory to locate your *"Open VPN Username"*
+```
+     - ls into your *tryhackme* Directory to locate your *"Open VPN Username"*
 
      - sudo openvpn {Your Username VPN}
 
      - *Leave this Terminal open in the background and open another terminal*
-
+```
  3.) In your second terminal:
      - Download gobuster in your terminal by using *sudo apt install gobuster*
      - Use the following command with the IP from the TryHackMe website room:
