@@ -96,10 +96,10 @@ Source: Kali Linux Terminal MAN Pages
 
     - Fire up a fire fox browser on your VM and type in your {IP address from TryHackMe}
 
-    * Should get a website that says you are successfully installed and configured.
+              - Should get a website that says you are successfully installed and configured.
 
     - Use the answer(s) from dirbuster and gobuster in fire fox for instance XXX.XX.XX.XXX/{directory that was found in dirbuster/gobuster}
 
     - Once you get to that webpage, view page source and read that/those.
 
-    - **You should find a code that you should be able to crack. Copy it and throw it in a hash identifier to get your answer.**
+    - You should find a code that you should be able to crack. Copy it and throw it in a hash identifier to get your answer.
