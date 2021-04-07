@@ -2,7 +2,7 @@
 ============================================================================
 
 ## Beginning Tasks - Start Up!
- 1.) Log in to TRY HACK ME [Click Here](https://www.tryhackme.com)
+ 1.) Log in to [TRY HACK ME](https://www.tryhackme.com)
 * Open a terminal in your Virtual Machine
 * ls into your *Documents* Directory
 * ls into your *tryhackme* Directory to locate your *"Open VPN Username"*
