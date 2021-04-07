@@ -9,7 +9,10 @@
 * sudo openvpn {Your Username VPN}
 * *Leave this Terminal open in the background and open another terminal*
 
-
+* In your second terminal:
+     - Download gobuster in your terminal by using *{sudo apt install gobuster}*
+     - Use the following command with the IP from the TryHackMe website room
+           * gobuster dir -w /usr/share/wordlist/dirbuster/directory-list-2.3-medium.txt -u *{IP Address from TryHackMe}*
 
  2.)
 
